@@ -493,6 +493,65 @@ const HomePage = () => {
         </p>
       </div>
 
+
+       <div className="flex w-full items-center gap-8 p-6 lg:ml-32 md:ml-20 lg:mt-10">
+
+   {/* Text Content Section */}
+   <div className="flex flex-col gap-6 max-w-lg">
+     {/* Card 01 */}
+     <div>
+       <span className="text-blue-500 text-2xl font-bold">01</span>
+       <h4 className="text-xl font-semibold mt-2">Travel Requirements for Dubai</h4>
+       <p className="text-gray-600">
+       Plan your Dubai adventure with ease by understanding visa, and entry regulations. Ensure smooth travel with up-to-date guidelines for a hassle-free trip.
+       </p>
+     </div>
+
+     {/* Card 02 */}
+          <div>
+       <span className="text-blue-500 text-2xl font-bold">02</span>
+       <h4 className="text-xl font-semibold mt-2">Multi-risk travel insurance</h4>
+       <p className="text-gray-600">
+       Secure your journey with comprehensive multi-risk travel insurance. Stay protected against unexpected events, including medical emergencies, trip cancellations, and lost baggage.
+       </p>
+     </div>
+
+     {/* Card 03 */}
+     <div>
+       <span className="text-blue-500 text-2xl font-bold">03</span>
+       <h4 className="text-xl font-semibold mt-2">Chauffeur services at your arrival</h4>
+       <p className="text-gray-600">
+       Experience comfort and convenience with our chauffeur services upon arrival. Enjoy seamless transfers to your destination with professional drivers at your service.
+       </p>
+     </div>
+   </div>
+
+   {/* Image Section */}
+   <div className="flex gap-4">
+     <img
+      src={windowImage1}
+      alt="window"
+      className="w-32 h-52 rounded-[30px] shadow-lg object-cover"
+    />
+    <img
+      src={windowImage2}
+      alt="window"
+      className="w-32 h-48 rounded-[30px] shadow-lg object-cover"
+    />
+    <img
+      src={windowImage3}
+      alt="window"
+      className="w-32 h-44 rounded-[30px] shadow-lg object-cover"
+    />
+    <img
+      src={windowImage4}
+      alt="window"
+      className="w-32 h-40 rounded-[30px] shadow-lg object-cover"
+    />
+  </div>
+</div>
+
+
       {/* Traveler Cards Section */}
       <div className="text-center py-8 lg:mt-5">
         <h4 className="text-2xl font-bold mb-6">Top Travelers Of This Month!</h4>
