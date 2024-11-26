@@ -9,30 +9,7 @@ A comprehensive **Flight Booking and Reservation System** built using the **MERN
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 
----
-
-## **API Endpoints**
-
-### **1. Flights**
-- `GET /api/flights`: Retrieve all flights.
-- `POST /api/flights/search`: Search flights based on criteria.
-- `POST /api/flights/book`: Book a selected flight.
-
-### **2. Bookings**
-- `GET /api/bookings/:userId`: Retrieve all bookings for a user.
-- `PATCH /api/bookings/:bookingId`: Update booking details.
-- `DELETE /api/bookings/:bookingId`: Cancel a booking.
-
-### **3. Payments**
-- `POST /api/payments`: Process payment using Stripe or PayPal.
-
-### **4. Users**
-- `POST /api/auth/register`: Register a new user.
-- `POST /api/auth/login`: Log in a user.
-- `GET /api/users/profile`: Retrieve user profile details.
-
----
-
+----
 
 ### **Postman Collection Details**
 
